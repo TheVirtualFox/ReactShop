@@ -6,11 +6,12 @@
   align-items: center;
   position: relative;
 
+
   &:hover {
     .image {
       opacity: .8;
     }
-    .custom-button {
+    button {
       opacity: .85;
       display: flex;
     }
@@ -24,7 +25,7 @@
     margin-bottom: 5px;
   }
 
-  .custom-button {
+  button {
     width: 80%;
     opacity: .7;
     position: absolute;
